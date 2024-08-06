@@ -1,9 +1,7 @@
+import HomePage from "../templates/HomePage";
+
 function App() {
-  return (
-    <div>
-      <p>App</p>
-    </div>
-  );
+  return <HomePage>Hello</HomePage>;
 }
 
 export default App;
