@@ -1,14 +1,36 @@
 :root {
+  --primary: #269936;
+  --white: white;
+  --dark: #101130;
 }
+
+@font-face {
+  font-family: normal;
+  src: url("/FiraSans-Regular.ttf");
+}
+@font-face {
+  font-family: bold;
+  src: url("/FiraSans-Bold.ttf");
+}
+
 body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
   overflow: hidden;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: normal Arial, Helvetica, sans-serif;
+}
+
 a {
+  color: var(--dark);
   text-decoration: none;
+}
+
+.bold {
+  font-family: bold;
 }
 
 p,
